@@ -1,0 +1,145 @@
+{
+    "id": null,
+    "name": "GOES19-L2-AOD", ****só GOES19?
+    "title": "ABI L2 Aerosol Optical Depth",
+    "description": "The Aerosol Optical Depth at 550 nm product consists of pixels containing a dimensionless quantity representing the atmospheric absorption optical thickness due to ambient aerosol. The product is derived from ABI reflectance measurements through physical retrievals that utilize a lookup table of top of the atmosphere reflectance that is calculated from a radiative transfer model. The product is reported at 0.55 um, and 10 degree latitude band statistics are included for aerosol optical depth at 0.55 um. Product data is generated during the day.",
+    "temporal_composition_schema": null,
+    "composition_function": null,
+    "grid_ref_sys": null,
+    "collection_type": "collection",
+    "metadata": {
+        "providers": [
+            {
+                "url": "https://www.nasa.gov/content/goes",
+                "name": "National Aeronautics and Space Administration (NASA)",
+                "roles": [
+                    "producer"
+                ]
+            },
+            {
+                "url": "https://www.goes-r.gov/",
+                "name": "National Oceanic and Atmospheric Administration (NOAA)",
+                "roles": [
+                    "processor",
+                    "producer",
+                    "licensor"
+                ]
+            },
+            {
+                "url": "https://data.inpe.br/big/",
+                "name": "National Institute for Space Research (INPE)",
+                "roles": [
+                    "host",
+                    "processor"
+                ]
+            }
+        ],
+        "license": {
+            "type": "Public Domain",
+            "uri": "https://www.nesdisia.noaa.gov/policy.html"
+        }
+    },
+    "keywords": [
+        "goes",
+        "goes-19",
+        "level-2",
+        "AOD",
+        "aerosol",
+        "optical",
+        "depth",
+        "brazil"    ***Full disk?
+    ],
+    "is_public": true,
+    "is_available": true,
+    "category": "eo",
+    "version": 1,    ***Versão de controle do INPE?
+    "version_predecessor": null,
+    "version_successor": null,
+    "extent": {
+        "spatial": {
+            "bbox": [
+            [
+              -180,    ***Long
+              -81.33,    ***?
+              6.3,    ***Lat N
+              81.33    ***Lat S ?
+            ]
+          ]
+        }
+    },
+    "bands": [
+        {
+            "name": "B01",
+            "common_name": "blue",
+            "description": "Daytime aerosol over land, coastal water mapping",
+            "center_wavelength": 0.47,
+            "min_value": 0,
+            "max_value": 4095,
+            "nodata": 65535,
+            "scale": 0.00031746,
+            "offset": 0,
+            "data_type": "uint16",
+            "mime_type": "application/netcdf",
+            "resolution_x": 1.0,
+            "resolution_y": 1.0,
+            "resolution_unit": "Kilometer",
+            "full_width_half_max": 0.0401
+        },
+        {
+            "name": "B03",
+            "common_name": "nir09",
+            "description": "Daytime vegetation, burn scar, aerosol over water, winds",
+            "center_wavelength": 0.87,
+            "min_value": 0,
+            "max_value": 4095,
+            "nodata": 65535,
+            "scale": 0.00031746,
+            "offset": 0,
+            "data_type": "uint16",
+            "mime_type": "application/netcdf",
+            "resolution_x": 1.0,
+            "resolution_y": 1.0,
+            "resolution_unit": "Kilometer",
+            "full_width_half_max": 0.0351
+        },
+    ],
+    "summaries": {
+        "platform": [
+            "goes-19"
+        ],
+        "constellation": [
+            "goes-r"
+        ],
+        "instruments": [
+            "abi"
+        ]
+    },
+    "item_assets": {
+        "B01": {
+            "type": "application/netcdf",
+            "title": "Cloud and Moisture Imagery reflectance factor - ABI Band 01",
+            "roles": [
+                "data"
+            ]
+        },
+        "B03": {
+            "type": "application/netcdf",
+            "title": "Cloud and Moisture Imagery reflectance factor - ABI Band 03",
+            "roles": [
+                "data"
+            ]
+        },
+        "thumbnail": {
+            "type": "image/png",
+            "title": "Thumbnail",
+            "roles": [
+                "thumbnail"
+            ]
+        }
+    },
+    "properties": {
+        "sources": [
+            "http://www.inpe.br"
+        ]
+    }
+}
