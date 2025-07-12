@@ -114,38 +114,55 @@
             "full_width_half_max": 0.0401
         },
         {
-            "name": "B01",
-            "common_name": "blue",
-            "description": "Daytime aerosol over land, coastal water mapping",
-            "center_wavelength": 0.47,
+            "name": "ABI L2 Clear Sky Mask",
+            "common_name": "cloud_binary_mask",
+            "description": "The Clear Sky Mask product consists of a binary cloud mask identifying pixels as 'clear or probably clear' or 'cloudy or probably cloudy'. The binary cloud mask is generated through a series of cloud detection threshold tests that key on the spatial, spectral, and temporal characteristics associated with the cloud and clear-sky states. Product data is generated both day and night.",
+            "center_wavelength": null, ???
             "min_value": 0,
-            "max_value": 4095,
-            "nodata": 65535,
-            "scale": 0.00031746,
-            "offset": 0,
-            "data_type": "uint16",
+            "max_value": 1,
+            "nodata": 255,  FillValue???
+            "scale": null,
+            "offset": 0,   ???
+            "data_type": "byte",
             "mime_type": "application/netcdf",
-            "resolution_x": 1.0,
-            "resolution_y": 1.0,
-            "resolution_unit": "Kilometer",
-            "full_width_half_max": 0.0401
+            "resolution_x": 2.0,   metadata do netcdf
+            "resolution_y": 2.0,  metadata do netcdf
+            "resolution_unit": "Kilometer", metadata do netcdf
+            "full_width_half_max": null ???
         },
         {
-            "name": "B03",
-            "common_name": "nir09",
-            "description": "Daytime vegetation, burn scar, aerosol over water, winds",
-            "center_wavelength": 0.87,
+            "name": "ABI L2 Cloud Top Phase",
+            "common_name": "cloud_phase_category",
+            "description": "The Cloud Top Phase product consists of cloud classification identification information for each pixel. The cloud phase categories are clear sky, liquid water, super cooled liquid water, mixed phase, ice, and unknown. The cloud phase is determined using a physical retrieval of emissivity utilizing a radiative transfer model, followed by a series of threshold tests applied to a cloud microphysical parameter derived from the calculated emissivity. Product data is generated both day and night",
+            "center_wavelength": null,
             "min_value": 0,
-            "max_value": 4095,
-            "nodata": 65535,
-            "scale": 0.00031746,
-            "offset": 0,
-            "data_type": "uint16",
+            "max_value": 5,
+            "nodata": 255,   FillValue???
+            "scale": null,
+            "offset": 0, ???
+            "data_type": "byte",
             "mime_type": "application/netcdf",
-            "resolution_x": 1.0,
-            "resolution_y": 1.0,
-            "resolution_unit": "Kilometer",
-            "full_width_half_max": 0.0351
+            "resolution_x": 2.0,   metadata do netcdf
+            "resolution_y": 2.0,   metadata do netcdf
+            "resolution_unit": "Kilometer",   metadata do netcdf
+            "full_width_half_max": null ???
+        },
+        {
+            "name": "ABI L2+ Cloud Top Height",
+            "common_name": "cloud_phase_category",
+            "description": "",
+            "center_wavelength": null,
+            "min_value": 0,
+            "max_value": 5,
+            "nodata": 255,   FillValue???
+            "scale": null,
+            "offset": 0, ???
+            "data_type": "byte",
+            "mime_type": "application/netcdf",
+            "resolution_x": 2.0,   metadata do netcdf
+            "resolution_y": 2.0,   metadata do netcdf
+            "resolution_unit": "Kilometer",   metadata do netcdf
+            "full_width_half_max": null ???
         },
     ],
     "summaries": {
