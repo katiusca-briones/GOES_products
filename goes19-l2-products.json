@@ -79,18 +79,18 @@
     ],
     "is_public": true,
     "is_available": true,
-    "category": "eo",
-    "version": 1,    ***Versão de controle do INPE?
+    "category": "eo", ??
+    "version": null,
     "version_predecessor": null,
     "version_successor": null,
     "extent": {
         "spatial": {
             "bbox": [
             [
-              -180,    ***Long
-              -81.33,    ***?
-              6.3,    ***Lat N
-              81.33    ***Lat S ?
+              -180,
+              -81.33,
+              6.3,
+              81.33
             ]
           ]
         }
