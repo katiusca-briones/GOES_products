@@ -541,9 +541,163 @@
                 "data"
             ]
         },
-        "B03": {
+        "Clear Sky Mask": {
             "type": "application/netcdf",
-            "title": "Cloud and Moisture Imagery reflectance factor - ABI Band 03",
+            "title": "ABI L2 Clear Sky Mask",
+            "roles": [
+                "data"
+            ]
+        },
+         "Cloud Top Phase": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Top Phase",
+            "roles": [
+                "data"
+            ]
+        },
+         "Cloud Top Height": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Top Height",
+            "roles": [
+                "data"
+            ]
+        },
+        "Cloud Top Pressure": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Top Pressure",
+            "roles": [
+                "data"
+            ]
+        },
+        "Cloud Top Temperature": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Top Temperature",
+            "roles": [
+                "data"
+            ]
+        },
+        "Cloud Optical Depth at 640 nm": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Optical Depth at 640 nm",
+            "roles": [
+                "data"
+            ]
+        },
+        "Cloud Particle Size": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Cloud Particle Size",
+            "roles": [
+                "data"
+            ]
+        },
+        "Aerosol Detection": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Aerosol Detection",
+            "roles": [
+                "data"
+            ]
+        },
+        "Aerosol Optical Depth": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Aerosol Optical Depth",
+            "roles": [
+                "data"
+            ]
+        },
+        "Volcanic Ash: Detection and Height": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Volcanic Ash: Detection and Height",
+            "roles": [
+                "data"
+            ]
+        },
+        "Legacy Vertical Temperature Profile": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Legacy Vertical Temperature Profile",
+            "roles": [
+                "data"
+            ]
+        },
+        "Legacy Vertical Moisture Profile": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Legacy Vertical Moisture Profile",
+            "roles": [
+                "data"
+            ]
+        },
+        "Total Precipitable Water": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Total Precipitable Water",
+            "roles": [
+                "data"
+            ]
+        },
+        "Derived Stability Indices": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Derived Stability Indices",
+            "roles": [
+                "data"
+            ]
+        },
+        "Rainfall Rate - Quantitative Precipitation Estimate": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Rainfall Rate - Quantitative Precipitation Estimate",
+            "roles": [
+                "data"
+            ]
+        },
+        "Derived Motion Winds": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Derived Motion Winds",
+            "roles": [
+                "data"
+            ]
+        },
+        "Hurricane Intensity": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Hurricane Intensity",
+            "roles": [
+                "data"
+            ]
+        },
+        "Fire – Hot Spot Characterization": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Fire – Hot Spot Characterization",
+            "roles": [
+                "data"
+            ]
+        },
+        "Land Surface (Skin) Temperature": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Land Surface (Skin) Temperature",
+            "roles": [
+                "data"
+            ]
+        },
+        "Snow Cover": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Snow Cover",
+            "roles": [
+                "data"
+            ]
+        },
+        "Sea Surface (Skin) Temperature": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Sea Surface (Skin) Temperature",
+            "roles": [
+                "data"
+            ]
+        },
+        "Downward Shortwave Radiation: Surface": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Downward Shortwave Radiation: Surface",
+            "roles": [
+                "data"
+            ]
+        },
+         "Reflected Shortwave Radiation: Top Of Atmosphere (TOA)": {
+            "type": "application/netcdf",
+            "title": "ABI L2 Reflected Shortwave Radiation: Top Of Atmosphere (TOA)",
             "roles": [
                 "data"
             ]
